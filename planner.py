@@ -90,7 +90,7 @@ def display_daily_schedule(date, study_plan):
 if __name__ == "__main__":
     start_date = datetime(2025, 2, 7)
     study_plan = generate_study_plan(start_date)
-    print(" ❤️ Welcome to your personalized study scheduler honey. Let's see your today's study schedule ❤️")
+    print("❤️ ", "Welcome to your personalized study scheduler honey. Let's see your today's study schedule ❤️")
     date_input = input("Enter the date in dd-mm format (e.g., 31-03): ")
     day, month = map(int, date_input.split('-'))
     input_date = datetime(2025, month, day)
